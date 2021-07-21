@@ -24,7 +24,13 @@ class ViewController: UIViewController {
     
     @IBAction func buttonStuff(_ sender: Any) {
         labeloflabel.text = "Stop"
+        labeloflabel.textAlignment = .right
     }
 
+    @IBAction func label2(_ sender: Any) {
+        labeloflabel.text = "Button 2"
+        labeloflabel.textColor = UIColor.cyan
+        labeloflabel.textAlignment = .left
+    }
 }
 
