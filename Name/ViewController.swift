@@ -11,6 +11,7 @@ class ViewController: UIViewController {
  
     @IBOutlet weak var labeloflabel: UILabel!
     
+    @IBOutlet weak var ViewImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +24,7 @@ class ViewController: UIViewController {
        // messageLabel1.text = "Hello"
     
     @IBAction func buttonStuff(_ sender: Any) {
-        labeloflabel.text = "Stop"
-        labeloflabel.textAlignment = .right
+        ViewImage.image = UIImage(named: "image0")
     }
 
     @IBAction func label2(_ sender: Any) {
